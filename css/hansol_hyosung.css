@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-ExtraBold.eot');
+  src: url('Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-ExtraBold.woff2') format('woff2'),
+      url('Pretendard-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}/* Extra Bold */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Black.eot');
+  src: url('Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Black.woff2') format('woff2'),
+      url('Pretendard-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}/* 900 Black */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Bold.eot');
+  src: url('Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Bold.woff2') format('woff2'),
+      url('Pretendard-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}/* Bold */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-SemiBold.eot');
+  src: url('Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-SemiBold.woff2') format('woff2'),
+      url('Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} /* 600 Semi Bold */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Medium.eot');
+  src: url('Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Medium.woff2') format('woff2'),
+      url('Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}/* 500 Medium */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Regular.eot');
+  src: url('Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Regular.woff2') format('woff2'),
+      url('Pretendard-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}/* normal Regular */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Light.eot');
+  src: url('Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Light.woff2') format('woff2'),
+      url('Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}/* 300 light */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-ExtraLight.eot');
+  src: url('Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-ExtraLight.woff2') format('woff2'),
+      url('Pretendard-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}/* 200 Ectra Light */
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('Pretendard-Thin.eot');
+  src: url('Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+      url('Pretendard-Thin.woff2') format('woff2'),
+      url('Pretendard-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+
+
+}/* 100 Thin */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+
+
+
+.page {
+  width: 1280px;
+  margin: 0 auto;
+}
+.page .section01 {
+  width: 1280px;
+}
+.page .section01 h1 {
+  font-family: 'Pretendard';
+  font-size: 37px;
+  font-weight: bold;
+  margin: 83px 0 104px 0;
+  transition: 0.5s;
+}
+.page .section01 h1:hover {
+  text-shadow: 5px 5px 0px #8fe9ff,4px 4px 0px #8fe9ff,3px 3px 0px #8fe9ff, 2px 2px 0px #8fe9ff, 1px 1px 0px #8fe9ff;
+}
+.page .section01 .con_list {
+  width: 1280px;
+  height: 393px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.page .section01 .con_list .con01 {
+  position: relative;
+  transition: 0.5s;
+}
+.page .section01 .con_list .con01:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px #ddd;
+  display: block;
+}
+.page .section01 .con_list .con02 {
+  position: relative;
+  transition: 0.5s;
+}
+.page .section01 .con_list .con02:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px #ddd;
+  display: block;
+}
+.page .section01 .con_list .con03 {
+  position: relative;
+  transition: 0.5s;
+}
+.page .section01 .con_list .con03:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px #ddd;
+  display: block;
+}
+.page .section01 .con_list .con04 {
+  position: relative;
+  transition: 0.5s;
+}
+.page .section01 .con_list .con04:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px #ddd;
+  display: block;
+}
+.page .section01 .con_list .image img {
+  width: 299px;
+  height: 393px;
+  border-radius: 10px;
+
+}
+
+.page .section01 .con_list .text {
+  width: 299px;
+  height: 95px;
+  padding: 0 0 20px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  color: #fff;
+}
+.page .section01 .con_list .text h2 {
+  font-family: 'Pretendard';
+  font-size: 24px;
+  display: inline-block;
+}
+.page .section01 .con_list .text img {
+  height: 24px;
+  padding: 0 0 0 10px;
+}
+.page .section01 .con_list .text p {
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-weight: 500px;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+
+
+
+.section02 {
+  width: 1280px;
+  margin-bottom: 220px;
+}
+.section02 h1 {
+  font-family: 'Pretendard';
+  font-size: 86px;
+  font-weight: bold;
+  line-height: 65px;
+  margin-top: 230px;
+  text-align: center;
+  transition: 0.4s;
+}
+.section02 h1:hover {
+  text-shadow: 3px 3px 7px #1b50ffd5;
+}
+.section02 h2 {
+  font-family: 'Pretendard';
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0px;
+  margin: 40px 0 80px 0;
+  text-align: center;
+  transition: 0.4s;
+}
+.section02 h2:hover {
+  text-shadow: 3px 3px 3px #c4c4c4;
+}
+
+
+
+.section02 .con_list_2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 106px;
+}
+.section02 .con_list_2 .con_1 {
+  width: 409px;
+  height: fit-content;
+}
+
+.section02 .con_list_2 .con_1 .image01 {
+  height: 409px;
+  overflow: hidden;
+}
+
+.section02 .con_list_2 .con_1 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+
+}
+.section02 .con_list_2 .con_1 img:hover {
+  transform: scale(1.1);
+
+}
+
+.text dl dt {
+  font-family: 'Pretendard';
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.text dl dd {
+  font-family: 'Pretendard';
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.section02 .con_list_2 .con_2 {
+  width: 299px;
+  height: fit-content;
+}
+.section02 .con_list_2 .con_2 .image02 {
+  height: 299px;
+  overflow: hidden;
+}
+.section02 .con_list_2 .con_2 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.section02 .con_list_2 .con_2 img:hover {
+  transform: scale(1.1);
+}
+
+.section02 .con_list_2 .con_3 {
+  width: 517px;
+}
+.image03 {
+  height: 517px;
+  overflow: hidden;
+}
+.section02 .con_list_2 .con_3 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.section02 .con_list_2 .con_3 img:hover {
+  transform: scale(1.1);
+}
+
+.section02 .con_list_2 .con_4 {
+  width: 409px;
+  height: fit-content;
+}
+.section02 .con_list_2 .con_4 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.section02 .con_list_2 .con_4 .image04 {
+  height: 280px;
+  overflow: hidden;
+}
+.section02 .con_list_2 .con_4 img:hover {
+  transform: scale(1.1);
+}
+
+.section02 .con_list_2 .con_5 {
+  width: 517px;
+  height: fit-content;
+}
+.section02 .con_list_2 .con_5 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.section02 .con_list_2 .con_5 img:hover {
+  transform: scale(1.05);
+}
+
+.section02 .con_list_2 .con_6 {
+  width: 299px;
+  height: fit-content;
+}
+.section02 .con_list_2 .con_6 .image06 {
+  height: 168px;
+}
+.section02 .con_list_2 .con_6 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.section02 .con_list_2 .con_6 img:hover {
+  transform: scale(1.1);
+}
